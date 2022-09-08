@@ -111,13 +111,7 @@ header {
   display: inline;
 }
 
-/* CARDS */
-/* .card {
-  margin: 0 ;
-  padding: 0;
-  border: 2px solid var(--dark);
-  border-radius: var(--border-radius);
-} */
+
 .card{
   background-color: rgb(238, 238, 207);
   border: 2px solid black;
@@ -138,11 +132,7 @@ header {
 
 }
 
-/* .card-body {
-  padding: 0;
-} */
 
-/* FORM */
 .form-label,
 .form-input,
 .form-textarea {
@@ -217,9 +207,7 @@ header {
   min-width: 100vw;
 }
 
-/* MARGIN/PADDING UTILS */
 
-/* Margin - all sides */
 .m-0 {
   margin: 0;
 }

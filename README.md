@@ -15,4 +15,15 @@ The user can create/add as many Engineer or Intern as per their requirement.
 
 ## Screencapture
 
-<img src = './src/Screenshot.JPG' alt = 'image' width = '800' height = '300'>
+<img src = './src/Screenshot.JPG' alt = 'image' width = '800' height = '300' style = 'border:2px solid black'>
+
+## Built using
+* HTML, CSS, Javascript
+* Node.js
+* inquirer package
+* Jest for testing
+
+
+## Contribution
+
+Made by Jatin
