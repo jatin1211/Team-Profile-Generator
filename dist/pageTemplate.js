@@ -18,13 +18,8 @@ function writeToFile(data){
         
         htmlList += `<div class = "data col-4"><ul class = "card data-ul"><li class= "card-title">${Object.values(element)[0]}<br>${Object.values(element)[4]}</li><li class = "card-text"> ID : ${Object.values(element)[1]}</li><li class = "card-text">Email: <a href="mailto:${Object.values(element)[2]}" >${Object.values(element)[2]}</a></li><li class = "card-text">${Object.keys(element)[3]} : ${newText}${Object.values(element)[3]}</a></li>
         </ul></div>`
-
-       
-        
+ 
     });
-
-
-
     return `
         <!DOCTYPE html>
     <html lang="en">
@@ -49,8 +44,6 @@ function writeToFile(data){
         </header>
         <main class="row container my-4">
             ${htmlList}
-           
-
             
         </main>
         <footer class="container text-center py-3">
